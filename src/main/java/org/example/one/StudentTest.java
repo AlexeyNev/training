@@ -1,4 +1,6 @@
-package org.example;
+package org.example.one;
+
+import org.example.one.Student;
 
 public class StudentTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.one;
 
 public class Summ {
     int sum() {
