@@ -23,6 +23,10 @@ public class ArrayListMethods2 {
         Student student6 = new Student("Zlata", 'f', 14, 1, 4.9);
         arrayList.remove(student6);
         System.out.println(arrayList);
+
+
+        System.out.println(arrayList.indexOf(student6));
+        //indexOf сравнивает есть ли одинаковые объекты в листе, если они есть - возвращает индекс, если нет -1
     }
 }
 
