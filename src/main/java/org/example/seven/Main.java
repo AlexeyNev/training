@@ -34,5 +34,20 @@ public class Main {
         Map<String, Integer> map2 = new TreeMap<>(); //ХРАНИТ ЗНАЧЕНИЯ ТАК КАК МЫ ИХ ПЕРЕДАЛИ
         Map<String, Integer> map3 = new LinkedHashMap<>(); //ЗНАЧЕНИЯ БУДЕТ СОРТИРОВАТЬ
 
+        map1.put("Ivan", 53);
+        map1.put("Sergey", 30);
+        map1.put("Petr", 36);
+
+        System.out.println(map1);
+
+        checkAge(map1.get("Sergey"));
+    }
+
+    public static void checkAge(Integer age) {
+        if (age >= 30) {
+            System.out.println("ok");
+        } else {
+            System.out.println("too young");
+        }
     }
 }
