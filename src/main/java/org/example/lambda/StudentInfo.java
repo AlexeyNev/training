@@ -1,5 +1,6 @@
 package org.example.lambda;
 
+
 import java.util.ArrayList;
 
 public class StudentInfo {

@@ -1,13 +1,13 @@
-package org.example.lambda;
+package org.example.interface_function;
 
-public class Student {
+public class Student2 {
     String name;
     char sex;
     int age;
     int course;
-    public double avgGrade;
+    double avgGrade;
 
-    public Student(String name, char sex, int age, int course, double avgGrade) {
+    public Student2(String name, char sex, int age, int course, double avgGrade) {
         this.name = name;
         this.sex = sex;
         this.age = age;
@@ -17,7 +17,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "Student2 {" +
                 "name='" + name + '\'' +
                 ", sex=" + sex +
                 ", age=" + age +
