@@ -25,16 +25,11 @@ public class StudentInfo {
         students.add(student5);
 
         StudentInfo info = new StudentInfo();
-        info.testStudents(students, new CheckOverGrade());
-        System.out.println("-----");
-        info.testStudents(students, new StudentChecks() {
-            @Override
-            public boolean check(Student s) {
-                return s.age < 30;
-            }
-        });
+        info.testStudents(students, s -> s.avgGrade > 8);
         System.out.println("-----");
         info.testStudents(students, s -> s.age < 30);
+        System.out.println("-----");
+        info.testStudents(students, s -> s.age > 20 && s.avgGrade < 9.3 && s.sex == 'f');
     }
 }
 
