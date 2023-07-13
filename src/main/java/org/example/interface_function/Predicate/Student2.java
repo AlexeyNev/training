@@ -1,4 +1,4 @@
-package org.example.interface_function;
+package org.example.interface_function.Predicate;
 
 public class Student2 {
     String name;

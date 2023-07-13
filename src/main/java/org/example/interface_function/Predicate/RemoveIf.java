@@ -1,4 +1,4 @@
-package org.example.interface_function;
+package org.example.interface_function.Predicate;
 
 import java.util.ArrayList;
 

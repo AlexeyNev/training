@@ -1,13 +1,11 @@
-package org.example.interface_function;
+package org.example.interface_function.Predicate;
 
-
-import org.example.lambda.Student;
 
 import java.util.ArrayList;
 import java.util.function.Predicate;
 
 public class StudentInfo2 {
-    void testStudents2(ArrayList<Student2> students,Predicate<Student2> predicate) {
+    void testStudents2(ArrayList<Student2> students, Predicate<Student2> predicate) {
         for (Student2 s: students) {
             if (predicate.test(s)) {
                 System.out.println(s);
